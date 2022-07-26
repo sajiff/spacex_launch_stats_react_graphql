@@ -1,6 +1,9 @@
 {
   "name": "spacex_launch_stats",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "description": "App that lists spaceX launch missions",
   "main": "server.js",
   "scripts": {
