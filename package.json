@@ -5,12 +5,17 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "sajid",
   "license": "MIT",
   "dependencies": {
+    "@apollo/client": "^3.6.9",
     "axios": "^0.27.2",
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "express-graphql": "^0.12.0",
     "graphql": "^16.5.0"
