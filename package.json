@@ -12,7 +12,6 @@
   "author": "sajid",
   "license": "MIT",
   "dependencies": {
-    "@apollo/client": "^3.6.9",
     "axios": "^0.27.2",
     "concurrently": "^7.3.0",
     "cors": "^2.8.5",
